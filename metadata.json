@@ -1,0 +1,6 @@
+{
+  "name": "OpenTickets - South Africa Event & Match Ticketing",
+  "description": "Award-winning redesign for OpenTickets (opentickets.co.za) - South Africa's premier platform for PSL football matches, concerts, expos, and stadium event tickets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
