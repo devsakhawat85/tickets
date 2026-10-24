@@ -3,6 +3,7 @@ import { EventItem } from '../types';
 import { HeroCarousel } from '../components/HeroCarousel';
 import { IsotopeFilterGrid } from '../components/IsotopeFilterGrid';
 import { ShieldCheck, Smartphone, Building, RefreshCw, MapPin, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { stadiumFnbImg, sunbetArenaImg, kirstenboschImg, sowetoDerbyImg } from '../data/events';
 
 interface HomePageProps {
   events: EventItem[];
@@ -181,7 +182,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             >
               <div className="aspect-video rounded-lg overflow-hidden mb-3 bg-slate-900">
                 <img
-                  src="/src/assets/images/stadium_fnb_seating_1792832080389.jpg"
+                  src={stadiumFnbImg}
                   alt="FNB Stadium"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -202,7 +203,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             >
               <div className="aspect-video rounded-lg overflow-hidden mb-3 bg-slate-900">
                 <img
-                  src="/src/assets/images/event_sunbet_arena_concert_1792832081166.jpg"
+                  src={sunbetArenaImg}
                   alt="SunBet Arena"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -223,7 +224,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             >
               <div className="aspect-video rounded-lg overflow-hidden mb-3 bg-slate-900">
                 <img
-                  src="/src/assets/images/event_kirstenbosch_sunset_1792832079916.jpg"
+                  src={kirstenboschImg}
                   alt="Kirstenbosch Gardens"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -244,7 +245,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             >
               <div className="aspect-video rounded-lg overflow-hidden mb-3 bg-slate-900">
                 <img
-                  src="/src/assets/images/event_soweto_derby_1792832077490.jpg"
+                  src={sowetoDerbyImg}
                   alt="Loftus Versfeld"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

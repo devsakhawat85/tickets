@@ -1,5 +1,14 @@
 import { EventItem } from '../types';
 
+import sowetoDerbyImg from '../assets/images/event_soweto_derby_1792832077490.jpg';
+import capeMusicFestImg from '../assets/images/event_cape_music_fest_1792832079043.jpg';
+import sa4x4ExpoImg from '../assets/images/event_sa_4x4_expo_1792832079798.jpg';
+import sunbetArenaImg from '../assets/images/event_sunbet_arena_concert_1792832081166.jpg';
+import kirstenboschImg from '../assets/images/event_kirstenbosch_sunset_1792832079916.jpg';
+import stadiumFnbImg from '../assets/images/stadium_fnb_seating_1792832080389.jpg';
+
+export { sowetoDerbyImg, capeMusicFestImg, sa4x4ExpoImg, sunbetArenaImg, kirstenboschImg, stadiumFnbImg };
+
 export const EVENTS_DATA: EventItem[] = [
   {
     id: 'soweto-derby-2026',
@@ -15,7 +24,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'Gauteng',
     priceStartingFrom: 80,
     featured: true,
-    heroImage: '/src/assets/images/event_soweto_derby_1792832077490.jpg',
+    heroImage: sowetoDerbyImg,
     status: 'Selling Fast',
     shortDescription: "South Africa's biggest sporting spectacle returns to the iconic Calabash. Witness Orlando Pirates take on arch-rivals Kaizer Chiefs in front of 90,000 passionate fans.",
     fullDescription: [
@@ -83,7 +92,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'Western Cape',
     priceStartingFrom: 380,
     featured: true,
-    heroImage: '/src/assets/images/event_cape_music_fest_1792832079043.jpg',
+    heroImage: capeMusicFestImg,
     status: 'Limited Tickets',
     shortDescription: "Cape Town's premier summer outdoor musical celebration featuring top South African indie, electronic, and afro-house artists with panoramic views of the Atlantic Ocean and the Twelve Apostles.",
     fullDescription: [
@@ -141,7 +150,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'Gauteng',
     priceStartingFrom: 120,
     featured: true,
-    heroImage: '/src/assets/images/event_sa_4x4_expo_1792832079798.jpg',
+    heroImage: sa4x4ExpoImg,
     status: 'General On Sale',
     shortDescription: "South Africa's largest 4x4, camping, and expedition showcase. Over 180 exhibitors, live 4x4 obstacle tracks, vehicle debuts, rooftop tents, and family bushveld entertainment.",
     fullDescription: [
@@ -198,7 +207,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'Gauteng',
     priceStartingFrom: 60,
     featured: false,
-    heroImage: '/src/assets/images/stadium_fnb_seating_1792832080389.jpg',
+    heroImage: stadiumFnbImg,
     status: 'General On Sale',
     shortDescription: "Midweek prime-time Betway Premiership clash as the Brazilians host the Citizens under the Loftus floodlights. High stakes football in Tshwane.",
     fullDescription: [
@@ -251,7 +260,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'Gauteng',
     priceStartingFrom: 290,
     featured: false,
-    heroImage: '/src/assets/images/event_sunbet_arena_concert_1792832081166.jpg',
+    heroImage: sunbetArenaImg,
     status: 'Almost Sold Out',
     shortDescription: "An unforgettable evening of world-class acoustics featuring award-winning African vocalists accompanied by the 60-piece Mzansi Philharmonic Orchestra.",
     fullDescription: [
@@ -304,7 +313,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'Western Cape',
     priceStartingFrom: 260,
     featured: false,
-    heroImage: '/src/assets/images/event_kirstenbosch_sunset_1792832079916.jpg',
+    heroImage: kirstenboschImg,
     status: 'Selling Fast',
     shortDescription: "A cherished Cape Town summer tradition. Bring your picnic blanket and basket to enjoy live acoustic music on the scenic lawns beneath Table Mountain.",
     fullDescription: [
@@ -349,7 +358,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'KwaZulu-Natal',
     priceStartingFrom: 70,
     featured: false,
-    heroImage: '/src/assets/images/event_soweto_derby_1792832077490.jpg',
+    heroImage: sowetoDerbyImg,
     status: 'General On Sale',
     shortDescription: "Knockout cup football under the iconic arch of Moses Mabhida Stadium. Winner takes all for a coveted spot in the semi-finals.",
     fullDescription: [
@@ -394,7 +403,7 @@ export const EVENTS_DATA: EventItem[] = [
     province: 'Western Cape',
     priceStartingFrom: 180,
     featured: false,
-    heroImage: '/src/assets/images/event_sunbet_arena_concert_1792832081166.jpg',
+    heroImage: sunbetArenaImg,
     status: 'Selling Fast',
     shortDescription: "South Africa's top comedic talents unite for an evening of side-splitting laughter in Cape Town's premier performing arts auditorium.",
     fullDescription: [
